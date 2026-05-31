@@ -37,7 +37,7 @@ st.title("📄 Tender File Processing")
 if "extracted_data" not in st.session_state:
     st.session_state.extracted_data = None
     st.session_state.intermediate_tables = None
-st.markdown('<p style="font-size:20px;">Upload your Excel and Word files below. The app will extract the needed information and combine it into one Excel file.</p>', unsafe_allow_html=True)
+st.markdown('<p style="font-size:20px;">Before uploading Word files, please open them in Microsoft Word, click Enable Editing if prompted, then Save As and save a copy before uploading the resaved copy to the app. Upload your Excel and Word files below. The app will extract the needed information and combine it into one Excel file.</p>', unsafe_allow_html=True)
 
 # ---- File Uploaders ----
 st.header("Step 1: Upload Your Files")
