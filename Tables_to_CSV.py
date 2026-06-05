@@ -354,23 +354,3 @@ def extract_data(dfs, name="combined_data"):
                      df_price, df_unit_price], axis=1)
      df.to_csv(f"{name}.csv", index=False, encoding="utf-8-sig")
      return df
-
-# word_doc_path = r"C:\Users\Jinny\Downloads\Metropoliten 26-23 hraver.docx"
-# word_doc = Document(word_doc_path)
-# name = dc.safe_filename(dc.get_name(word_doc))
-# files = [
-#   # r"C:\Users\Jinny\Desktop\vibe-coder\lot_1_i_texnikakan_bnutagir_1.csv",
-#     r"C:\Users\Jinny\Desktop\vibe-coder\ԿԱՐԵՆ ԴԵՄԻՐՃՅԱՆԻ ԱՆՎԱՆ ԵՐԵՎԱՆԻ ՄԵՏՐՈՊՈԼԻՏԵՆ ՓԲԸ_0.csv",
-#     r"C:\Users\Jinny\Desktop\vibe-coder\ԿԱՐԵՆ ԴԵՄԻՐՃՅԱՆԻ ԱՆՎԱՆ ԵՐԵՎԱՆԻ ՄԵՏՐՈՊՈԼԻՏԵՆ ՓԲԸ_1.csv",
-#     r"C:\Users\Jinny\Desktop\vibe-coder\ԿԱՐԵՆ ԴԵՄԻՐՃՅԱՆԻ ԱՆՎԱՆ ԵՐԵՎԱՆԻ ՄԵՏՐՈՊՈԼԻՏԵՆ ՓԲԸ_2.csv"
-# ]
-
-# df = load_mixed_tables(files)
-# print(get_CPV(df))
-# print(get_descriptions(df))
-#print(get_long_descriptions(df))
-# print(get_units(df))
-# # print(get_price(df))
-# print(get_quantity(df))
-# print(get_unit_price(df))
-# extract_data(df, name)
