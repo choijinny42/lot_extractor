@@ -131,8 +131,4 @@ def save_csv(doc_path):
         dataframes.append(df)
     
     return dataframes
-# doc_path = r"C:\Users\Jinny\Downloads\Garni texnikakan_bnutagir.docx"
 
-# table = get_table(doc_path)
-# save_csv(doc_path, "Garni texnikakan_bnutagir")
-# print(get_headers(table[0]))
